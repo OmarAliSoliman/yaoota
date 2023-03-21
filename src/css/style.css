@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+/* Constant styles  */
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+  font-family: cairo;
+}
+
+body {
+  font-family: cairo;
+  line-height: normal !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0 !important;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+button {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* // Constant Styles */
+.btn {
+  background-color: #0A305C;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.form-control {
+  border-radius: 7px;
+  background-color: rgba(245, 247, 250, 0.386);
+}
+
+.form-control:focus {
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .form-control {
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: .875rem;
+  color: #000;
+  line-height: 19px;
+}
+
+.all_posts {
+  min-height: 100vh;
+  padding: 100px 0;
+}
+
+.all_posts .post_header {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.all_posts .card a {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+.post_details {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Shared styles  */
+/*# sourceMappingURL=style.css.map */
