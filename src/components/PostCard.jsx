@@ -8,7 +8,7 @@ function PostCard({post}) {
         <div className="card-body">
           <h5 className="card-title">{post.title}</h5>
           <p className="card-text">{post.body}</p>
-          <Link to={`post-details/${post.id}`} className="btn btn-primary">Details</Link>
+          <Link to={`/post-details/${post.id}`} className="btn btn-primary">Details</Link>
         </div>
       </div>
     </>

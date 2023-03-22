@@ -4,8 +4,7 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   font-size: 16px;
-  -webkit-transition: all .4s ease-in;
-  transition: all .4s ease-in;
+  transition: all 0.4s ease-in;
   font-family: cairo;
 }
 
@@ -30,8 +29,7 @@ img {
 
 a,
 button {
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
 
@@ -52,14 +50,11 @@ input[type=number] {
   background-color: #0A305C;
   color: #fff;
   border-radius: 0;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-
 .btn:focus {
   outline: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 ul {
@@ -70,11 +65,9 @@ ul {
   border-radius: 7px;
   background-color: rgba(245, 247, 250, 0.386);
 }
-
 .form-control:focus {
   outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -85,13 +78,12 @@ ul {
     background-color: rgba(255, 255, 255, 0.2);
   }
 }
-
 h6 {
   font-size: 1rem;
 }
 
 p {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   line-height: 19px;
 }
@@ -100,12 +92,10 @@ p {
   min-height: 100vh;
   padding: 100px 0;
 }
-
 .all_posts .post_header {
   font-size: 3rem;
   margin-bottom: 30px;
 }
-
 .all_posts .card a {
   display: block;
   width: 100%;
@@ -114,13 +104,9 @@ p {
 
 .post_details {
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 100px;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
-/* Shared styles  */
-/*# sourceMappingURL=style.css.map */
+/* Shared styles  *//*# sourceMappingURL=style.css.map */
