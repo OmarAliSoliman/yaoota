@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import PostDetails from './routes/PostDetails';
 import Posts from './routes/Posts';
+import UserPosts from './routes/UserPosts';
 
 
 const routes = createBrowserRouter([
@@ -13,6 +14,7 @@ const routes = createBrowserRouter([
     children: [
       { index: true, element: <Posts /> },
       { path: "post-details/:id", element: <PostDetails /> },
+      { path: "userposts/:userId", element: <UserPosts /> },
     ]
   },
 ])
